@@ -1,0 +1,16 @@
+-- [PERSONAGE] --
+```
+id: 1                                           // id unique du personnage
+id_joueur: 1                                    // id du joueur auquel appartient le personnage
+id_type_personnage: 1                           // id du type de personnage (PERSONNAGE NON JOUEUR, PERSONNAGE JOUEUR, MONSTRE,)
+nom : Bertrand                                  // nom du personnage
+prenom: Benoit                                  // prénom du personnage
+[Alias] : [Ben, Beni]                           // alias du personnage
+date_creation: 2019-01-01                       // date de création du personnage
+date_modification: 2019-01-01                   // date de la dernière modification du personnage
+date_naissance: 2019-01-01                      // date de naissance du personnage
+points_vie_actuels: 100                         // points de vie actuels
+points_vie_max: 100                             // points de vie maximum autorisés
+points_experience: 0                            // points d'expérience actuels
+
+```
