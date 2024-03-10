@@ -25,12 +25,11 @@ module.exports = (sequelize: any, DataTypes: any) => {
     description!: string;
     static associate(models: any) {
       // define association here
-      RefTypeUtilisateur.hasMany(models.Utilisateur, {
-        foreignKey: 'refTypeUtilisateurId'
-      });
-
+        RefTypeUtilisateur.hasMany(models.Utilisateur, {
+            foreignKey: 'refTypeUtilisateurId'
+        });
       }
-    };
+    }
   RefTypeUtilisateur.init({
     id: {
         type: DataTypes.INTEGER,
@@ -44,7 +43,7 @@ module.exports = (sequelize: any, DataTypes: any) => {
     },
     libelle: {
       type: DataTypes.STRING,
-        allowNull: false,
+      allowNull: false,
     },
     description: {
       type: DataTypes.STRING,

@@ -34,10 +34,6 @@ module.exports = (sequelize: any, DataTypes: any) => {
       Utilisateur.hasMany(models.Personnage, {
         foreignKey: 'utilisateurId'
       });
-
-      Utilisateur.hasOne(models.RefTypeUtilisateur, {
-        foreignKey: 'refTypeUtilisateurId'
-      });
     }
   };
   Utilisateur.init({
