@@ -1,5 +1,0 @@
-### refTypeUtilisateurs Check
-GET http://localhost:8080/refTypeUtilisateurs HTTP/1.1
-
-### Message endpoint
-GET http://localhost:8080/message/word HTTP/1.1
