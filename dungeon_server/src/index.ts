@@ -1,10 +1,19 @@
 import EnvManager from "./EnvManager";
 import { createServer } from "./server";
 
+/**
+ * Création du serveur
+ */
 const server = createServer();
 
-const port = EnvManager.getPort(3001);
+/**
+ * Récupération du port
+ */
+const port = EnvManager.getPort(3000);
 
+/**
+ * Démarrage du serveur
+ */
 server.listen(port, () => {
-    console.log(`api running on ${port}`);
+    console.log(`dungeon_server api running on port ${port}`);
 });

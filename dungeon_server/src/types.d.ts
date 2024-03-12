@@ -12,6 +12,14 @@ type ValidationError = {
         errors: Array<{ message: string }>;
     };
 };
+type RefTypeUtilisateurEntity = {
+    id: number;
+    code: string;
+    libelle: string;
+    description: string;
+    created_at: Date;
+    updated_at: Date;
+};
 
 type TourEntity = {
     id: string;
@@ -50,6 +58,15 @@ interface TravelAttributes {
     is_public: boolean;
     number_of_days: number;
     tours: Array<TourAttributes>;
+    created_at: Date;
+    updated_at: Date;
+}
+
+interface RefTypeUtilisateurAttributes {
+    id: number;
+    code: string;
+    libelle: string;
+    description: string;
     created_at: Date;
     updated_at: Date;
 }

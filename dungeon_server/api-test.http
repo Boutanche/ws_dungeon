@@ -3,3 +3,16 @@ GET http://localhost:3000/healthz HTTP/1.1
 
 ### Message endpoint
 GET http://localhost:3000/message/word HTTP/1.1
+
+### Get all refTypeUtilisateur
+GET http://localhost:3000/api/v1/refTypeUtilisateurs HTTP/1.1
+
+### Post refTypeUtilisateur
+POST http://localhost:3000/api/v1/refTypeUtilisateurs HTTP/1.1
+Content-Type: application/json
+
+{
+    "code": "code",
+    "libelle": "libelle",
+    "description": "description"
+}

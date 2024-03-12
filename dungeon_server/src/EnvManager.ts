@@ -3,7 +3,7 @@ import { studlyCaseToSnakeCase } from "./utils/functions";
 class EnvManager {
     [x: string]: any;
     getDbConnectionUrl() {
-        return `mysql://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+        return `postgres://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
     }
 }
 const envManager = new EnvManager();
