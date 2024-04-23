@@ -14,7 +14,7 @@
 
 ### RGG 2 : Langues intradiagétiques :
     
-    RGG2.01 : Les noms propres possèdes des traductions.
+    RGG2.01 : Les noms propres possèdent des traductions.
     
     RGG2.02 : Le Previsoirien est la langue de référence pour l'ensemble des noms propres.
     
