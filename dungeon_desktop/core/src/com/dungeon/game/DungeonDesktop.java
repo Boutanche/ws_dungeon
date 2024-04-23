@@ -8,8 +8,6 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 
-import java.awt.*;
-
 /**
  * La classe DungeonDesktop est une classe qui hérite de ApplicationAdapter.
  * Elle permet de créer une fenêtre de jeu et de dessiner des éléments 2D dans cette fenêtre.
